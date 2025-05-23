@@ -1,5 +1,5 @@
 ---
-title: Nginx Gradio Reverse Proxy
+title: MLX My Repo (Staging)
 emoji: 🦸
 colorFrom: gray
 colorTo: red
