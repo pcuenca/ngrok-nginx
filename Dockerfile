@@ -1,5 +1,8 @@
 FROM nginx:latest
-COPY ./default.conf /etc/nginx/conf.d/default.conf
+COPY ./default.conf default.conf
+COPY ./entrypoint.sh entrypoint.sh
+
+ENTRYPOINT ./entrypoint.sh
 
 ## User
 #RUN useradd -m -u 1000 user
